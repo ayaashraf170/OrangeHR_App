@@ -18,9 +18,14 @@ test.beforeEach('',async({page})=>{
     await loginPage.open();
     await loginPage.login(userCred.Admin.username,userCred.Admin.password)
     await dashboardPage.clickMenuModule("Admin")
+
 })
 
 test('',async()=>{
+
+    
+
+
     
 
 })
